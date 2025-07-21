@@ -22,10 +22,10 @@ FinTech Solutions S.p.A., leader nel settore dei servizi finanziari, ha avviato 
    - Creazione di strategie di marketing specifiche per ciascun cluster.
 
 # Valore Aggiunto
-**Ottimizzazione del Marketing:** Migliorare il tasso di risposta e conversione con campagne mirate.
-**Personalizzazione dell'Offerta:** Sviluppo di offerte personalizzate per adattarsi alle esigenze dei clienti.
-**Efficienza Operativa:** Focalizzare le risorse sui clienti più redditizi.
-**Identificazione di Opportunità di Crescita:** Scoprire gruppi di clienti con potenziale di crescita.
+- **Ottimizzazione del Marketing:** Migliorare il tasso di risposta e conversione con campagne mirate.
+- **Personalizzazione dell'Offerta:** Sviluppo di offerte personalizzate per adattarsi alle esigenze dei clienti.
+- **Efficienza Operativa:** Focalizzare le risorse sui clienti più redditizi.
+- **Identificazione di Opportunità di Crescita:** Scoprire gruppi di clienti con potenziale di crescita.
 
 # Descrizione del Dataset
 
