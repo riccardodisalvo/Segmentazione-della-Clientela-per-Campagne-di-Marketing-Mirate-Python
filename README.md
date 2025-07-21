@@ -1,44 +1,55 @@
-# Customer Segmentation using K-Means Clustering 
+# Descrizione del Progetto
 
-## Overview
+FinTech Solutions S.p.A., leader nel settore dei servizi finanziari, ha avviato un progetto per ottimizzare le campagne di marketing relative alla sua linea di carte di credito. Il progetto si focalizza sulla segmentazione dei clienti in gruppi omogenei basati sui comportamenti di spesa e utilizzo delle carte di credito, al fine di indirizzare campagne promozionali personalizzate e massimizzare il ritorno sull'investimento.
 
-This project uses **K-Means clustering** to segment customers based on their purchasing behaviors and financial activity. By identifying customer groups, the company can design targeted marketing campaigns to enhance engagement and profitability. 
+# Obiettivi del Progetto
+1. Analisi Esplorativa dei Dati (EDA)
+   Comprendere la distribuzione delle variabili.
+   Individuare dati mancanti e valutare la necessità di trasformazioni sui dati.
+   Preprocessing dei Dati
 
-## Project Structure 
+2. Gestione dei valori mancanti.
+   Normalizzazione e standardizzazione delle variabili quantitative.
+   Segmentazione tramite Clustering
 
-1. **Data Preprocessing**:
-   - Cleaned and scaled the dataset for accurate model performance.
-   - Handled missing values and outliers effectively.
-   
-2. **K-Means Clustering**:
-   - Applied the **K-Means algorithm** to identify 4 clusters.
-   - Evaluated clustering performance using the **Silhouette Score**.
+3. Utilizzo di algoritmi di clustering (K-Means, DBSCAN) per identificare gruppi di clienti omogenei.
+   Valutazione delle performance del clustering.
 
-3. **Cluster Analysis**:
-   - Analyzed the clusters based on the average values of the original variables.
-   - Visualized the clusters using **PCA** for a two-dimensional representation.
+4. Interpretazione dei Cluster
+   Analisi e descrizione dei cluster in termini di spese medie, abitudini di pagamento e frequenza di utilizzo della      carta.
 
-## Dataset 
+5. Sviluppo delle Strategie di Marketing
+   Creazione di strategie di marketing specifiche per ciascun cluster.
 
-The dataset includes various features that describe customer financial behavior. Below is a list of the key features used for clustering:
+# Valore Aggiunto
+**Ottimizzazione del Marketing:** Migliorare il tasso di risposta e conversione con campagne mirate.
+**Personalizzazione dell'Offerta:** Sviluppo di offerte personalizzate per adattarsi alle esigenze dei clienti.
+**Efficienza Operativa:** Focalizzare le risorse sui clienti più redditizi.
+**Identificazione di Opportunità di Crescita:** Scoprire gruppi di clienti con potenziale di crescita.
 
-- **CUST_ID**: Customer's credit card ID (Categorical) 
-- **BALANCE**: The remaining balance on the account 
-- **BALANCE_FREQUENCY**: How often the balance is updated, ranging from 0 to 1 (1 = frequent, 0 = infrequent) 
-- **PURCHASES**: Total amount spent by the customer 
-- **ONEOFF_PURCHASES**: Maximum amount spent in a single purchase
-- **INSTALLMENTS_PURCHASES**: Amount of purchases made in installments 
-- **CASH_ADVANCE**: Cash advance taken by the customer 
-- **PURCHASES_FREQUENCY**: Frequency of purchases, ranging from 0 to 1 (1 = frequent, 0 = infrequent) 
-- **ONEOFFPURCHASESFREQUENCY**: Frequency of one-off purchases, ranging from 0 to 1 
-- **PURCHASESINSTALLMENTSFREQUENCY**: Frequency of installment purchases, ranging from 0 to 1 
-- **CASHADVANCEFREQUENCY**: Frequency of cash advances taken by the customer 
-- **CASHADVANCETRX**: Number of cash advance transactions 
-- **PURCHASES_TRX**: Number of purchase transactions completed 
-- **CREDIT_LIMIT**: The credit limit of the cardholder 
-- **PAYMENTS**: Total payments made by the customer 
-- **MINIMUM_PAYMENTS**: Minimum amount paid by the customer 
-- **PRCFULLPAYMENT**: Percentage of full payments made by the customer 
-- **TENURE**: Duration of the customer’s credit card service 
+# Descrizione del Dataset
 
-The goal is to segment the current customer base into distinct clusters, each of which will receive targeted marketing campaigns from the company. 
+Il dataset contiene le seguenti informazioni:
+
+- CUST_ID: Identificativo univoco del titolare della carta di credito.
+- BALANCE: Importo del saldo rimanente sul conto per gli acquisti.
+- BALANCE_FREQUENCY: Frequenza di aggiornamento del saldo.
+- PURCHASES: Quantità totale degli acquisti effettuati.
+- ONEOFF_PURCHASES: Importo massimo degli acquisti in un'unica soluzione.
+- INSTALLMENTS_PURCHASES: Importo degli acquisti a rate.
+- CASH_ADVANCE: Anticipo in contanti dato dall'utente.
+- PURCHASES_FREQUENCY: Frequenza degli acquisti.
+- ONEOFFPURCHASESFREQUENCY: Frequenza degli acquisti in un'unica soluzione.
+- PURCHASESINSTALLMENTSFREQUENCY: Frequenza degli acquisti a rate.
+- CASHADVANCEFREQUENCY: Frequenza degli anticipi in contanti.
+- CASHADVANCETRX: Numero di transazioni con anticipo in contanti.
+- PURCHASES_TRX: Numero totale di transazioni di acquisto.
+- CREDIT_LIMIT: Limite massimo della carta di credito.
+- PAYMENTS: Importo totale dei pagamenti effettuati.
+- MINIMUM_PAYMENTS: Importo minimo dei pagamenti effettuati.
+- PRCFULLPAYMENT: Percentuale del pagamento completo effettuato.
+- TENURE: Durata del servizio di carta di credito in anni.
+  
+# Contributi
+La segmentazione della clientela permette a FinTech Solutions S.p.A. di migliorare l'efficacia delle sue campagne di marketing, aumentando la fidelizzazione dei clienti e ottimizzando l'utilizzo dei prodotti finanziari offerti.
+Contributi e feedback sono benvenuti! 
