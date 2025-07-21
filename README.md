@@ -3,23 +3,23 @@
 FinTech Solutions S.p.A., leader nel settore dei servizi finanziari, ha avviato un progetto per ottimizzare le campagne di marketing relative alla sua linea di carte di credito. Il progetto si focalizza sulla segmentazione dei clienti in gruppi omogenei basati sui comportamenti di spesa e utilizzo delle carte di credito, al fine di indirizzare campagne promozionali personalizzate e massimizzare il ritorno sull'investimento.
 
 # Obiettivi del Progetto
-1. Analisi Esplorativa dei Dati (EDA)
-   Comprendere la distribuzione delle variabili.
-   Individuare dati mancanti e valutare la necessità di trasformazioni sui dati.
-   Preprocessing dei Dati
+1. ## Analisi Esplorativa dei Dati (EDA)
+   - Comprendere la distribuzione delle variabili.
+   - Individuare dati mancanti e valutare la necessità di trasformazioni sui dati.
+   - Preprocessing dei Dati
 
-2. Gestione dei valori mancanti.
-   Normalizzazione e standardizzazione delle variabili quantitative.
-   Segmentazione tramite Clustering
+2. ## Gestione dei valori mancanti
+   - Normalizzazione e standardizzazione delle variabili quantitative.
+   - Segmentazione tramite Clustering
 
-3. Utilizzo di algoritmi di clustering (K-Means, DBSCAN) per identificare gruppi di clienti omogenei.
-   Valutazione delle performance del clustering.
+3. ## Utilizzo di algoritmi di clustering (K-Means, DBSCAN) per identificare gruppi di clienti omogenei.
+   - Valutazione delle performance del clustering.
 
-4. Interpretazione dei Cluster
-   Analisi e descrizione dei cluster in termini di spese medie, abitudini di pagamento e frequenza di utilizzo della      carta.
+4. ## Interpretazione dei Cluster
+  -  Analisi e descrizione dei cluster in termini di spese medie, abitudini di pagamento e frequenza di utilizzo della      carta.
 
-5. Sviluppo delle Strategie di Marketing
-   Creazione di strategie di marketing specifiche per ciascun cluster.
+5. ## Sviluppo delle Strategie di Marketing
+   - Creazione di strategie di marketing specifiche per ciascun cluster.
 
 # Valore Aggiunto
 **Ottimizzazione del Marketing:** Migliorare il tasso di risposta e conversione con campagne mirate.
