@@ -1,8 +1,10 @@
-# Descrizione del Progetto
+# Segmentazione della clientela per campagne di marketing mirate
+
+## Descrizione del Progetto
 
 FinTech Solutions S.p.A., leader nel settore dei servizi finanziari, ha avviato un progetto per ottimizzare le campagne di marketing relative alla sua linea di carte di credito. Il progetto si focalizza sulla segmentazione dei clienti in gruppi omogenei basati sui comportamenti di spesa e utilizzo delle carte di credito, al fine di indirizzare campagne promozionali personalizzate e massimizzare il ritorno sull'investimento.
 
-# Obiettivi del Progetto
+## Obiettivi del Progetto
 1. ## Analisi Esplorativa dei Dati (EDA)
    - Comprendere la distribuzione delle variabili.
    - Individuare dati mancanti e valutare la necessità di trasformazioni sui dati.
@@ -21,13 +23,13 @@ FinTech Solutions S.p.A., leader nel settore dei servizi finanziari, ha avviato 
 5. ## Sviluppo delle Strategie di Marketing
    - Creazione di strategie di marketing specifiche per ciascun cluster.
 
-# Valore Aggiunto
+## Valore Aggiunto
 - **Ottimizzazione del Marketing:** Migliorare il tasso di risposta e conversione con campagne mirate.
 - **Personalizzazione dell'Offerta:** Sviluppo di offerte personalizzate per adattarsi alle esigenze dei clienti.
 - **Efficienza Operativa:** Focalizzare le risorse sui clienti più redditizi.
 - **Identificazione di Opportunità di Crescita:** Scoprire gruppi di clienti con potenziale di crescita.
 
-# Descrizione del Dataset
+## Descrizione del Dataset
 
 Il dataset contiene le seguenti informazioni:
 
@@ -50,6 +52,7 @@ Il dataset contiene le seguenti informazioni:
 - PRCFULLPAYMENT: Percentuale del pagamento completo effettuato.
 - TENURE: Durata del servizio di carta di credito in anni.
   
-# Contributi
+## Contributi
 La segmentazione della clientela permette a FinTech Solutions S.p.A. di migliorare l'efficacia delle sue campagne di marketing, aumentando la fidelizzazione dei clienti e ottimizzando l'utilizzo dei prodotti finanziari offerti.
+
 Contributi e feedback sono benvenuti! 
