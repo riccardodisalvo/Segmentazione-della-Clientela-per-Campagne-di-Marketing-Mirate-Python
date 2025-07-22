@@ -8,13 +8,13 @@ FinTech Solutions S.p.A., leader nel settore dei servizi finanziari, ha avviato 
 1. ## Analisi Esplorativa dei Dati (EDA)
    - Comprendere la distribuzione delle variabili.
    - Individuare dati mancanti e valutare la necessità di trasformazioni sui dati.
-   - Preprocessing dei Dati
 
-2. ## Gestione dei valori mancanti
+2. ## Preprocessing dei Dati
+   - Gestione dei valori mancanti
    - Normalizzazione e standardizzazione delle variabili quantitative.
-   - Segmentazione tramite Clustering
 
-3. ## Utilizzo di algoritmi di clustering (K-Means, DBSCAN) per identificare gruppi di clienti omogenei.
+3. ## Segmentazione tramite Clustering
+   - Utilizzo di algoritmi di clustering (K-Means, DBSCAN) per identificare gruppi di clienti omogenei.
    - Valutazione delle performance del clustering.
 
 4. ## Interpretazione dei Cluster
